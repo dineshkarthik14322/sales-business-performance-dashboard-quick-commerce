@@ -1,23 +1,47 @@
 # Sales Business Performance Dashboard — Quick Commerce
 
-An Excel analysis of 100,000 quick-commerce orders across Blinkit, JioMart, and Swiggy Instamart — revenue, platform share, product categories, delivery, and customer feedback.
+An Excel analysis of 100,000 quick-commerce orders across Blinkit, JioMart, and Swiggy Instamart — revenue, platform share, product categories, delivery, refunds, and customer feedback. The dashboard has four views: Overview, Logistics, Financials, and Customers.
 
-![Sales Business Performance Dashboard](sales-business-performance-dashboard.png)
+## Overview
+
+![Overview — Sales Business Performance Dashboard](sales-business-performance-dashboard.png)
+
+- **100,000 orders** analysed, with **total revenue of ₹59,099,440**
+- **Revenue by platform:** Swiggy Instamart ₹19,831,984 · Blinkit ₹19,705,084 · JioMart ₹19,562,372 — an almost even three-way split (34% / 33% / 33%)
+- **Top categories by revenue:** Personal Care ₹17,395,601 · Grocery ₹14,194,055 · Beverages ₹9,086,669 · Dairy ₹7,610,522 · Fruits & Vegetables ₹6,246,517
+
+## Logistics
+
+![Logistics — delivery time and delays](logistics-dashboard.png)
+
+- **Average delivery time: 29.54 minutes**
+- **Successful deliveries: 86,328**
+- **Delivery delay:** 14% of orders delayed, 86% not delayed
+- Average delivery time by platform is shown alongside peak delivery hours
+
+## Financials
+
+![Financials — order value, refunds, and profitable categories](financials-dashboard.png)
+
+- **Average order value: ₹590.99**
+- **Refunded revenue: ₹2,71,33,887**
+- **Most profitable categories:** Personal Care, then Grocery, Beverages, Dairy, Fruits & Vegetables, and Snacks
+- Refund requests and revenue by service rating are broken down by platform
+
+## Customers
+
+![Customers — service rating and feedback](customers-dashboard.png)
+
+- **Average service rating: 3.2**
+- **High rating count: 46,477**
+- Average rating by platform and a feedback breakdown across all customer comments
 
 ## What this analysis answers
 
 - How much revenue does each platform bring in, and how evenly is it split?
 - Which product categories drive the most revenue?
 - How do delivery time, delivery delays, and service ratings vary?
-- What are customers actually saying in their feedback?
-
-## Key findings
-
-- **100,000 orders** analysed, with **total revenue of ₹59,099,440**
-- **Revenue by platform:** Swiggy Instamart ₹19,831,984 · Blinkit ₹19,705,084 · JioMart ₹19,562,372 — an almost even three-way split
-- **Top categories by revenue:** Personal Care ₹17,395,601 · Grocery ₹14,194,055 · Beverages ₹9,086,669 · Dairy ₹7,610,522 · Fruits & Vegetables ₹6,246,517
-- The workbook includes dedicated LOGISTICS, FINANCIAL, and CUSTOMER analysis sheets, plus the DASHBOARD view
-- Every order carries platform, product category, order value, delivery time, delivery delay, service rating, and customer feedback
+- What are customers actually saying in their feedback, and how much revenue is refunded?
 
 ## Tools used
 
@@ -29,7 +53,10 @@ An Excel analysis of 100,000 quick-commerce orders across Blinkit, JioMart, and 
 | File | Description |
 | --- | --- |
 | `sales-business-performance-dashboard.xlsx` | The complete Excel workbook — 100,000 orders with platform, category, delivery, and feedback data, plus PivotTables and the DASHBOARD, LOGISTICS, FINANCIAL, and CUSTOMER sheets |
-| `sales-business-performance-dashboard.png` | Dashboard screenshot |
+| `sales-business-performance-dashboard.png` | Overview dashboard screenshot |
+| `logistics-dashboard.png` | Logistics dashboard screenshot |
+| `financials-dashboard.png` | Financials dashboard screenshot |
+| `customers-dashboard.png` | Customers dashboard screenshot |
 
 ## How to open it
 
