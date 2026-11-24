@@ -8,7 +8,7 @@ An Excel analysis of 100,000 quick-commerce orders across Blinkit, JioMart, and 
 
 - **100,000 orders** analysed, with **total revenue of ₹59,099,440**
 - **Revenue by platform:** Swiggy Instamart ₹19,831,984 · Blinkit ₹19,705,084 · JioMart ₹19,562,372 — an almost even three-way split (34% / 33% / 33%)
-- **Top categories by revenue:** Personal Care ₹17,395,601 · Grocery ₹14,194,055 · Beverages ₹9,086,669 · Dairy ₹7,610,522 · Fruits & Vegetables ₹6,246,517
+- **Top categories by revenue:** Personal Care ₹17,395,601 · Grocery ₹14,194,055 · Beverages ₹9,086,669 · Dairy ₹7,610,522 · Fruits & Vegetables ₹6,246,517 · Snacks ₹4,566,076
 
 ## Logistics
 
@@ -24,8 +24,8 @@ An Excel analysis of 100,000 quick-commerce orders across Blinkit, JioMart, and 
 ![Financials — order value, refunds, and profitable categories](financials-dashboard.png)
 
 - **Average order value: ₹590.99**
-- **Refunded revenue: ₹2,71,33,887**
-- **Most profitable categories:** Personal Care, then Grocery, Beverages, Dairy, Fruits & Vegetables, and Snacks
+- **Refunded revenue: ₹27,133,887** — the order value of the 45,819 orders (45.8% of all orders) where a refund was requested
+- **Highest-revenue categories:** Personal Care, then Grocery, Beverages, Dairy, Fruits & Vegetables, and Snacks
 - Refund requests and revenue by service rating are broken down by platform
 
 ## Customers
